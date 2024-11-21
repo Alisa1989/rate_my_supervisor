@@ -4,7 +4,7 @@ CodePath WEB103 Final Project
 
 Designed and developed by: Alexandre Steinhauslin, Shi Zhang, Timothy Chung
 
-🔗 Link to deployed app:
+🔗 Link to deployed app: https://rate-my-supervisors.vercel.app
 
 ## About
 
@@ -42,24 +42,26 @@ Users can add reviews for a particular supervisor or an organization.
 
 ![view reviews of orgs and supervisors](assets/feature_add_reviews_orgs_supervisors.gif)
 
-### ✅ Review Tags for Supervisors
+### ✅ Update Reviews for Organizations and Supervisors
 
-When submitting reviews for a supervisor, interns can select from predefined tags to highlight specific aspects of their experience, making it easier for others to identify key points.
+Users can edit reviews for a particular supervisor or an organization.
 
-![review tags for supervisors](assets/feature_review_tags_for_supervisors.gif)
+![update reviews of orgs and supervisors](assets/feature_update_reviews_orgs_supervisors.gif)
 
-### Search for Organizations and Supervisors
+### ✅ Delete Reviews for Organizations and Supervisors
 
-A search functionality which allows users to quickly find specific organizations or supervisors by name.
+Users can remove reviews for a particular supervisor or an organization.
 
-[gif goes here]
+![delete reviews of orgs and supervisors](assets/feature_delete_reviews_orgs_supervisors.gif)
 
-### Update Organizations and Supervisors
+### ✅ Filter Organizations and Supervisors
 
-Users can edit existing profiles of organizations and supervisors to ensure information remains accurate and up-to-date.
+Users can filter to see the desire results based on organizations, specialties, and ratings.
 
-[gif goes here]
+![filter orgs and supervisors](assets/feature_filter_orgs_supervisors.gif)
 
 ## Installation Instructions
 
-[instructions go here]
+- Clone the repo
+- `npm install`
+- `npm run dev`
